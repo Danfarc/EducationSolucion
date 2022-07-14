@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{67D3A49A-E6AE-40FF-9C63-B69E026A3E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{67D3A49A-E6AE-40FF-9C63-B69E026A3E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{D1505ABC-19C1-429B-8F3F-945AEFC71ECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{D1505ABC-19C1-429B-8F3F-945AEFC71ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application", "Education.Application\Education.Application.csproj", "{160A04B5-38E6-45C5-AE8B-0D9A806EC002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Application", "Education.Application\Education.Application.csproj", "{160A04B5-38E6-45C5-AE8B-0D9A806EC002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Api", "Education.Api\Education.Api.csproj", "{474B08FA-6843-4D49-82C2-0885614F9891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Api", "Education.Api\Education.Api.csproj", "{474B08FA-6843-4D49-82C2-0885614F9891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.ApplicationNUnitTest", "Education.ApplicationNUnitTest\Education.ApplicationNUnitTest.csproj", "{FE848C00-E2CE-462D-870D-11BBD076991C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{474B08FA-6843-4D49-82C2-0885614F9891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{474B08FA-6843-4D49-82C2-0885614F9891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{474B08FA-6843-4D49-82C2-0885614F9891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE848C00-E2CE-462D-870D-11BBD076991C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE848C00-E2CE-462D-870D-11BBD076991C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE848C00-E2CE-462D-870D-11BBD076991C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE848C00-E2CE-462D-870D-11BBD076991C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
